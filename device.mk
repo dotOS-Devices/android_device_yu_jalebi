@@ -267,7 +267,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.0-service.cyanogen_8916
 
 # Vibrator
 PRODUCT_PACKAGES += \
