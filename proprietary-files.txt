@@ -225,16 +225,16 @@ vendor/lib/libWVStreamControlAPI_L3.so|61673304827483d44b735a3dd08f0783d10ce92d
 vendor/lib/mediadrm/libwvdrmengine.so|b88c5df27094314c39ff208fdd30c9e37042c70c
 
 # IMS
--framework/imscmlibrary.jar
+-vendor/framework/imscmlibrary.jar
 -vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
-bin/ims_rtp_daemon
-bin/imscmservice
-bin/imsdatadaemon
-bin/imsqmidaemon
-etc/permissions/ims.xml
-etc/permissions/imscm.xml
-etc/permissions/qti_permissions.xml
+vendor/bin/ims_rtp_daemon
+vendor/bin/imscmservice
+vendor/bin/imsdatadaemon
+vendor/bin/imsqmidaemon
+vendor/etc/permissions/ims.xml
+vendor/etc/permissions/imscm.xml
+vendor/etc/permissions/qti_permissions.xml
 vendor/lib/librcc.so
 vendor/lib/lib-dplmedia.so
 vendor/lib/lib-ims-rcscmjni.so
