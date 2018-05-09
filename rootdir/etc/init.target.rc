@@ -94,13 +94,13 @@ service ims_rtp_daemon /system/vendor/bin/ims_rtp_daemon
    class main
    user system
    socket ims_rtpd stream 0660 system radio
-   group radio net_raw diag qcom_diag log
+   group radio net_raw oem_2950 qcom_diag log
    disabled
 
 service imscmservice /system/vendor/bin/imscmservice
    class main
    user system
-   group radio net_raw diag qcom_diag log
+   group radio net_raw oem_2950 qcom_diag log
    disabled
 
 on property:sys.ims.DATA_DAEMON_STATUS=1
