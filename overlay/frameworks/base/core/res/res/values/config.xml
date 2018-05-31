@@ -146,6 +146,9 @@
            with HWC 2.0 or higher. -->
     <bool name="config_nightDisplayAvailable">false</bool>
 
+    <!-- Enable doze powersaving mode -->
+    <bool name="config_enableAutoPowerModes">true</bool>
+
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
          When false, setInteractive(..., true) will be called before the display is turned on
