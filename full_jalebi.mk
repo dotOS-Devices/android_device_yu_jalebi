@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jalebi device
 $(call inherit-product, device/yu/jalebi/device.mk)
 
+# Add APN(s)
+PRODUCT_COPY_FILES += device/yu/jalebi/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := jalebi
 PRODUCT_NAME := full_jalebi
