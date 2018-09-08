@@ -24,6 +24,14 @@ ro.qualcomm.bt.hci_transport=smd
 persist.camera.cpp.duplication=false
 persist.camera.hal.debug.mask=0
 
+# Dalvik
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=96m
+dalvik.vm.heapsize=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
 # Display
 config.svi.path=/system/etc/svi_config.xml
 config.svi.xml=1
