@@ -81,6 +81,3 @@ ro.telephony.default_network=9,9
 
 # Wi-Fi
 wifi.interface=wlan0
-
-# Wi-Fi display
-persist.debug.wfd.enable=1
