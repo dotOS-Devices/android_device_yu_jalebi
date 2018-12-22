@@ -56,6 +56,9 @@ ro.frp.pst=/dev/block/platform/soc.0/7824900.sdhci/by-name/frp
 drm.service.enabled=1
 vidc.enc.narrow.searchrange=1
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Perf
 ro.min_freq_0=800000
 ro.config.max_starting_bg=8
