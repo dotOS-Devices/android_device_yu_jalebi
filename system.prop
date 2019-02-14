@@ -1,8 +1,24 @@
 # Audio
-ro.vendor.audio.sdk.fluencetype=fluence
+af.fast_track_multiplier=1
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=false
-persist.vendor.audio.fluence.speaker=true
+ro.vendor.audio.sdk.fluencetype=fluence
+vendor.audio.av.streaming.offload.enable=true
+vendor.audio.offload.buffer.size.kb=64
+vendor.audio.offload.gapless.enabled=true
+vendor.audio_hal.period_size=192
+vendor.voice.path.for.pcm.voip=true
+
+# Bluetooth
+qcom.bluetooth.soc=smd
+ro.bluetooth.dun=true
+ro.bluetooth.hfp.ver=1.7
+ro.bluetooth.sap=true
+ro.qualcomm.bt.hci_transport=smd
 
 # Camera
 persist.camera.cpp.duplication=false
@@ -11,6 +27,13 @@ persist.camera.hal.debug.mask=0
 # Display
 config.svi.path=/system/etc/svi_config.xml
 config.svi.xml=1
+debug.composition.type=c2d
+debug.enable.sglscale=1
+debug.hwui.use_buffer_age=false
+debug.mdpcomp.idletime=600
+persist.hwc.mdpcomp.enable=true
+persist.hwc.ptor.enable=true
+ro.opengles.version=196608
 ro.qualcomm.cabl=0
 ro.qualcomm.svi=1
 ro.sf.lcd_density=320
@@ -18,13 +41,32 @@ ro.sf.lcd_density=320
 # Factory reset protection
 ro.frp.pst=/dev/block/platform/soc.0/7824900.sdhci/by-name/frp
 
+# Media
+persist.media.treble_omx=false
+drm.service.enabled=1
+vidc.enc.narrow.searchrange=1
+
 # Perf
+ro.min_freq_0=800000
+ro.config.max_starting_bg=8
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.core_ctl_min_cpu=0
+ro.core_ctl_max_cpu=4
 ro.sys.fw.dex2oat_thread_count=4
 
 # Radio
+persist.data.qmi.adb_logmask=0
+persist.radio.apm_sim_not_pwdn=1
+ro.telephony.call_ring.multiple=false
 persist.radio.multisim.config=dsds
 ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 ro.config.always_show_roaming=true
 ro.telephony.default_network=9,9
+
+# Wi-Fi
+wifi.interface=wlan0
+
+# Wi-Fi display
+persist.debug.wfd.enable=1
