@@ -120,7 +120,7 @@ TARGET_KERNEL_CONFIG := lineageos_jalebi_defconfig
 TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916
 
 # Manifest
-DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
