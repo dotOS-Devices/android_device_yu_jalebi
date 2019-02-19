@@ -19,9 +19,6 @@ FORCE_32_BIT := true
 
 DEVICE_PATH := device/yu/jalebi
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
 # Architecture
 ifneq ($(FORCE_32_BIT),true)
 TARGET_ARCH := arm64
@@ -58,7 +55,6 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 
 # Camera
 BOARD_CAMERA_SENSORS := ov8865_qtech_baly_6c gc2355_blx_ffln_78
-TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Display
