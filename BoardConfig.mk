@@ -19,6 +19,10 @@ FORCE_32_BIT := true
 
 DEVICE_PATH := device/yu/jalebi
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # Architecture
 ifneq ($(FORCE_32_BIT),true)
 TARGET_ARCH := arm64
@@ -151,9 +155,6 @@ TARGET_RIL_VARIANT := caf
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
-
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
