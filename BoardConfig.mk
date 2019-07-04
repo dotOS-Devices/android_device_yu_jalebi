@@ -123,6 +123,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET := 0x02000000
 TARGET_KERNEL_CONFIG := lineageos_jalebi_defconfig
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916
 
 # Manifest

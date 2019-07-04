@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916"
+  },
+  {
+    "repository": "proprietary_vendor_yu",
+    "target_path": "vendor/yu" 
+  }
+]
