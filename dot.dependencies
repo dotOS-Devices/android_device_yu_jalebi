@@ -1,10 +1,10 @@
 [
   {
-    "repository": "android_kernel_cyanogen_msm8916",
+    "repository": "android_kernel_yu_jalebi",
     "target_path": "kernel/cyanogen/msm8916"
   },
   {
-    "repository": "proprietary_vendor_yu",
+    "repository": "proprietary_vendor_yu_jalebi",
     "target_path": "vendor/yu" 
   }
 ]
